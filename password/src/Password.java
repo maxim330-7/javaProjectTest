@@ -31,7 +31,7 @@ public class Password {
     private static String generatePassword(int lenPassword){
         String[] password = new String[lenPassword];
         SecureRandom random = new SecureRandom();
-        System.out.print("Ваш пароль: ");
+        System.out.print("Пароль: ");
 
         //Заполняем
         for (int i = 0; i < lenPassword; i++) {
