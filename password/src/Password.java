@@ -11,6 +11,9 @@ public class Password {
     };
 
     public static void main(String[] args){
+        TestClass test = new TestClass();
+        test.methodTest();
+        
         Scanner scanner = new Scanner(System.in);
 
         while (true){
